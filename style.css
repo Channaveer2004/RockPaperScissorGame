@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222831;
+
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: black;
+}
+
+.title {
+    font-size: 32px;
+    color: greenyellow;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+}
+
+.container {
+    width: 750px;
+    height: 450px;
+    background-color: rgba(134, 154, 156, 0.482);
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    padding: 8px;
+    margin: 10px;
+
+}
+
+.txt{
+    padding: 10px;
+    text-align: left;
+}
